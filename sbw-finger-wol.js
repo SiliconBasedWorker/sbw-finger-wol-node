@@ -5,7 +5,7 @@ const sendWol = function (deviceInfo) {
   var deviceName = deviceInfo.deviceName;
   var mac = deviceInfo.wolMAC;
   wol.wake(mac, function (err, res) {
-    console.log(res, err);
+    console.log(deviceName, mac, res, err);
   });
 };
 
