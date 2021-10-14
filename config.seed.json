@@ -1,0 +1,6 @@
+{
+  "aspherAddr": "http://0.0.0.0:3001",
+  "deviceName": "sbw-finger-wol",
+  "token": "token",
+  "authPass": "pass"
+}

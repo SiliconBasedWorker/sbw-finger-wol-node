@@ -2,9 +2,11 @@
   "name": "sbw-finger-wol-node",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
+  "main": "sbw-finger-wol.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "stop": "pkill -f sbw-finger-wol.js",
+    "start": "nohup npm run serv > /dev/null 2>&1 &",
+    "serv": "node sbw-finger-wol.js"
   },
   "repository": {
     "type": "git",
@@ -17,6 +19,7 @@
   },
   "homepage": "https://github.com/SiliconBasedWorker/sbw-finger-wol-node#readme",
   "dependencies": {
-    "socket.io-client": "^4.2.0"
+    "socket.io-client": "^4.2.0",
+    "wol": "^1.0.7"
   }
 }
