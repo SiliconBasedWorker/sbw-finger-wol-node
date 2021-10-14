@@ -1,0 +1,22 @@
+{
+  "name": "sbw-finger-wol-node",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/SiliconBasedWorker/sbw-finger-wol-node.git"
+  },
+  "author": "Wolf Hugo",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/SiliconBasedWorker/sbw-finger-wol-node/issues"
+  },
+  "homepage": "https://github.com/SiliconBasedWorker/sbw-finger-wol-node#readme",
+  "dependencies": {
+    "socket.io-client": "^4.2.0"
+  }
+}
